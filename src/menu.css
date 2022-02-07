@@ -1,0 +1,41 @@
+.icon {
+    width: 70px;
+    height: 70px;
+    background: #1278d8;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.menuItems {
+    flex-direction: row;
+}
+
+.menuItem,
+.menuItems,
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuItem {
+    flex-direction: column;
+    list-style: none;
+    margin: 30px;
+}
+
+.icon:hover {
+    transition: all 0.3s cubic-bezier(0.37, 0.74, 0.15, 1.65);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.icon:hover~.item-name {
+    visibility: visible;
+}
+
+.item-name {
+    visibility: hidden;
+}
+
+.menu {}

@@ -1,0 +1,48 @@
+/* .box {
+    position: relative;
+    display: inline-block;
+    margin: 25px;
+}
+
+.edform {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.part {
+    margin: 30px;
+}
+
+.part2 {
+    top: 100px;
+}
+
+.box::after {
+    content: "▼";
+    color: rgb(96, 45, 190);
+    display: inline-block;
+    transform: rotate(90deg);
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    z-index: 1;
+    width: 10%;
+    pointer-events: none;
+    box-sizing: border-box;
+}
+
+.box:focus-within::after {
+    transform: rotate(0deg);
+}
+
+select {
+    padding: 10px 30px 10px 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+select:focus {
+    background-color: #9babe98c;
+} */
